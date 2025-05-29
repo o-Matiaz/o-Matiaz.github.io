@@ -58,9 +58,8 @@
   		</fieldset>
   	<br>
   	<div align="center">
-  <p id="participantes" style="font-size: 40px;"><b>Participantes</b></p>
+  <h1 id="participantes">Participantes</h1>
   	</div>
-  <br>
   		<fieldset style="margin: 5%;">
   	<figure>
   	<img src="mestre.jpg" align="right" width="20%">
@@ -104,8 +103,10 @@
     </figure>
 		</fieldset>
 	<div align="center">
-   <p id="his" style="font-size: 40px;"><b>História do clube</b></p>
+   
    		<fieldset>
+   			<h3>História do clube</h3>
+
 					<p><b>Em Hyrule, três jovens, com habilidades bem peculiares, criaram o Fã Clube de Zelda</b>.<br> O grupo era formado por Crispin, o aventureiro acidental; Mateus, o explorador quântico; e Lion, o mago vira-lata. O trio se uniu por uma causa simples: seu amor pela Princesa Zelda e pelas aventuras de Hyrule — sem a parte de batalhas épicas, claro.<br>
 					Crispin, cansado das constantes aventuras e desejando algo mais tranquilo, sugeriu a ideia do clube, onde poderiam discutir as histórias de Zelda sem a pressão de enfrentar Ganon. Mateus, com seu interesse em teorias científicas e quânticas, aderiu à ideia, acreditando que o clube poderia ser uma maneira interessante de explorar a Triforce através de fórmulas.<br>
 					Lion, com seus feitiços descontrolados, trouxe um toque de magia para as reuniões, criando caos e diversão ao mesmo tempo, além de usar seus poderes para abrir portais para o próprio clube.<br>
@@ -113,4 +114,31 @@
 					O Fã Clube de Zelda se tornou um lugar de escapismo e diversão, onde, ao invés de lutar contra Ganon, todos podiam relaxar e discutir as aventuras de Zelda com um sorriso no rosto.</p>
 		</fieldset>
    </div>
+   <br><br>
+
+   		<fieldset>
+   				<form id="form" style="padding-left: 30%;">
+   					<h1>Ficha de inscrição:</h1>
+   						<label>Nome:</label>
+   							<input type="text" name="nome" id="nome" required>
+   			<br><br>
+   						<label>Idade:</label>
+   							<input type="number" name="idade" id="idade" required>
+   			<br><br>
+   						<label>Sexo:</label>
+   						<label for="male">M</label>
+   							<input type="radio" name="sexo" value="F" id="male" required>
+   						<label for="female">F</label>
+   							<input type="radio" name="sexo" value="M" id="female" required>
+   			<br><br>
+   						<label>Conhecimento:</label>
+   						<label>0</label>
+   							<input type="range" name="saber" required>
+   						<label>10</label>
+   			<br><br>
+   						<textarea placeholder="Sobre você"></textarea>
+   			<br><br>
+   						<input type="submit" name="cadastrar" value="enviar">
+   				</forms>
+   		</fieldset>
 </body>
